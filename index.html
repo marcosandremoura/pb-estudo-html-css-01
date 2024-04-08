@@ -21,8 +21,16 @@
                 </ul>
             </nav>
         </header>
-
+<br>
         <form action="./index.html">
+        <!-- ( action="") Server para informar para onde serão enviados os dados preenchidos no formulário. -->
+
+            <!-- ( <label></label> ) É basicamente o título do input. -->
+            <!-- ( for="" ) Serve para linkar a "label" com o "input", informando o "id" do "input" nele. -->
+            <!-- ( style="display: block" ) Serve para colocar um input abaixo do outro. Mas não é boa prática usa-la no HTML. -->
+            <!-- ( type="" ) Serve para garantir que será inserido um dado válido, na qual foi determinado para aquele input. -->
+            <!-- ( name="" ) Serve para indentificar o dado que será impresso no determinado input. -->
+            <!-- ( value="" ) Serve para escolher o que será impresso ao escolher aquela opção de input. -->
 
             <label for="email">Email</label>
             <input style="display: block" id="email" type="email" name="email" placeholder="informe seu melhor e-mail" />
@@ -36,11 +44,14 @@
             <label for="text">Texto</label>
             <input style="display: block" id="text" type="text" name="text" placeholder="Digite qualquer texto" />
 
-
+            <label for="mensagem">Mensagem</label>
+            <textarea style="display: block;" name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+<br>
+<br>
             <label for="CheckBox">CheckBox</label>
             <input style="display: block" id="CheckBox" type="checkbox" name="CheckBox" placeholder="" />
-
-
+<br>
+<br>
             <label for="radio">Masculino</label>
             <input style="display: block" id="radio" type="radio" name="sexo" value="masculino" />
 
@@ -49,19 +60,48 @@
 
             <label for="radio">Outro</label>
             <input style="display: block" id="radio" type="radio" name="sexo" value="outro" />
-
-
+<br>
+<br>          
             <label for="range">Range</label>
             <input style="display: block" id="range" type="range" name="range" />
-
-
+<br>
+<br>
             <label for="file">Arquivo</label>
             <input style="display: block" id="file" type="file" name="file" />
-
-
+<br>
+<br>
             <label for="date">Data</label>
             <input style="display: block" id="date" type="date" name="date" />
+<br>
+<br>
+            <select style="display: block;" name="dia da semana" id="">
+                <option value="Domingo">Domingo</option>
+                <option value="Segunda">Segunda</option>
+                <option value="Terça">Terça</option>
+                <option value="Quarta">Quarta</option>
+                <option value="Quinta">Quinta</option>
+                <option value="Sexta">Sexta</option>
+                <option value="Sábado">Sábado</option>
+            </select>
+<br>
+<br>
+            <button>Enviar</button>
         </form>
+
+        <img src="" alt="">
+<br>
+<br>      
+        <video controls>
+            <source src="" type="video/mp4">
+        </video>
+<br>
+<br>
+        <audio controls>
+            <source src="" type="audio/mpeg">
+        </audio>
+<br>
+<br>
+        <iframe src="./contato.html" frameborder="0"></iframe>
 
         <main>
             <div>
